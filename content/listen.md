@@ -4,7 +4,7 @@ Order: 3
 
 # How to Listen
 
-**Frequency:** 927.450 MHz, narrowband FM, transmitting around the clock.
+**Frequency:** 927.300 MHz, narrowband FM, transmitting around the clock.
 
 ## The schedule
 
