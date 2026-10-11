@@ -1,0 +1,39 @@
+
+.crumb { color: var(--muted); font-size: 15px; margin-bottom: 0; }
+.crumb a { color: var(--muted); }
+.metric { position: relative; }
+.metric h3 { margin: 0 0 4px; font-size: 18px; }
+.metric .now { font-size: 15px; color: var(--muted); margin: 0 0 10px; }
+.metric .now b { font-size: 26px; color: var(--ink); margin-right: 6px; }
+.range { float: right; }
+.range button { font: inherit; font-size: 13px; padding: 3px 10px; border: 1px solid var(--rule); background: transparent;
+  color: var(--muted); border-radius: 6px; cursor: pointer; margin-left: 4px; }
+.range button[aria-pressed="true"] { color: var(--ink); border-color: var(--muted); }
+.chart svg { width: 100%; height: auto; display: block; }
+.chart .grid { stroke: var(--rule); stroke-width: 1; }
+.chart .axis { fill: var(--muted); font-size: 11px; }
+.chart .line { fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart .band { fill: #b7d3f6; opacity: .7; }
+.chart .dot { fill: #2a78d6; stroke: var(--card); stroke-width: 2; }
+.chart .cross { stroke: var(--muted); stroke-width: 1; }
+.tip { position: absolute; visibility: hidden; pointer-events: none; background: var(--card); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 6px 9px; font-size: 13px; line-height: 1.4; box-shadow: 0 2px 8px rgba(0,0,0,.12); top: 60px; z-index: 2; }
+.statrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin: 12px 0 4px; font-size: 14px; }
+.statrow div { border-top: 1px solid var(--rule); padding-top: 6px; }
+.statrow small { display: block; color: var(--muted); }
+.heat td.c { text-align: center; font-variant-numeric: tabular-nums; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.tiles a.card { display: block; margin: 0; color: var(--ink); text-decoration: none; }
+.tiles a.card:hover { border-color: var(--accent); }
+.tiles h3 { margin: 0 0 6px; color: var(--accent); }
+.tiles p { margin: 0; font-size: 15px; color: var(--muted); }
+.tiles b { color: var(--ink); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.scroll { overflow-x: auto; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .chart .line { stroke: #3987e5; }
+  :root:not([data-theme="light"]) .chart .dot { fill: #3987e5; }
+  :root:not([data-theme="light"]) .chart .band { fill: #184f95; opacity: .8; }
+}
+:root[data-theme="dark"] .chart .line { stroke: #3987e5; }
+:root[data-theme="dark"] .chart .band { fill: #184f95; opacity: .8; }
