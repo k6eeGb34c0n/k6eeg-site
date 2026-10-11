@@ -20,5 +20,6 @@ and speaks them with Piper text-to-speech voices, with CW identification and sec
 | Tropospheric ducting | radiosonde soundings (Iowa State, University of Wyoming) and NOAA GFS model data |
 | Satellites | CelesTrak orbits and AMSAT status |
 
-Station: K6EEG, San Francisco, grid CM87. Current transmitter: 10 milliwatts into a discone antenna,
-10 meters above ground, while the permanent transmitter and site are prepared.
+Station: K6EEG, San Francisco, grid CM87. Current status: bench testing at 10 milliwatts into a small test
+antenna; the beacon is not on the air with an external antenna yet. A frequency survey and frequency
+coordination come next, then the permanent transmitter and site.

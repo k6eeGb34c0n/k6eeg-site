@@ -4,7 +4,7 @@ Order: 3
 
 # How to Listen
 
-**Frequency:** 927.300 MHz, narrowband FM, transmitting around the clock.
+**Frequency:** to be announced. **Not on the air yet.** The beacon is in bench testing and isn't transmitting with an external antenna. A frequency survey (listening for existing users) and frequency coordination come next. It will most likely operate in narrowband FM on 33 centimeters (902 to 928 MHz) and/or 23 centimeters (1240 to 1300 MHz); the frequency will be announced here once it's coordinated.
 
 ## The schedule
 
