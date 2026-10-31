@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Beacon | K6EEG</title>
+<link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="application/rss+xml" title="K6EEG reports" href="/feed.xml">
+</head>
+<body>
+<header>
+  <a class="brand" href="/">K6EEG <span style="color:inherit;font-weight:600;font-size:17px">Earth and Space Science Beacon</span> <em style="font-style:normal;font-size:12px;font-weight:600;color:#b45309;border:1px solid #f0a93b;background:rgba(240,169,59,.12);border-radius:5px;padding:1px 7px;margin-left:6px;vertical-align:middle;white-space:nowrap">not on the air yet</em></a>
+  <nav><a href="/">Home</a><a href="/latest.html">Latest</a><a href="/ops/">Ops</a><a href="/space/">Space</a><a href="/earth/">Earth</a><a href="/listen.html">Listen</a><a href="/beacon.html" class="active">The Beacon</a><a href="/learn.html">Learn</a><a href="/about.html">About</a></nav>
+</header>
+<main>
+<div style="border:1px solid #f0a93b;background:rgba(240,169,59,.12);border-radius:10px;padding:10px 14px;margin:0 0 18px;font-size:15px"><strong>Not on the air yet.</strong> The beacon is in bench testing and isn't transmitting with an external antenna. A frequency survey and frequency coordination come next; it will most likely operate in narrowband FM on 33 and/or 23 centimeters. <a href='/listen.html'>More</a></div><h1 id="how-the-beacon-works">How the Beacon Works</h1>
+<p>A Raspberry Pi 5 gathers data from about twenty public sources every half hour, writes the reports,
+and speaks them with Piper text-to-speech voices, with CW identification and section titles.</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Weather, forecasts, alerts</td>
+<td>National Weather Service</td>
+</tr>
+<tr>
+<td>Tides, bay temperatures, currents</td>
+<td>NOAA CO-OPS</td>
+</tr>
+<tr>
+<td>Ocean buoys</td>
+<td>NOAA National Data Buoy Center</td>
+</tr>
+<tr>
+<td>Air quality</td>
+<td>OpenAQ and the Bay Area Air District</td>
+</tr>
+<tr>
+<td>Earthquakes</td>
+<td>US Geological Survey</td>
+</tr>
+<tr>
+<td>Space weather</td>
+<td>NOAA Space Weather Prediction Center</td>
+</tr>
+<tr>
+<td>Maximum usable frequency</td>
+<td>ionosondes, via KC2G</td>
+</tr>
+<tr>
+<td>DX spots</td>
+<td>DX cluster network and the Reverse Beacon Network</td>
+</tr>
+<tr>
+<td>Tropospheric ducting</td>
+<td>radiosonde soundings (Iowa State, University of Wyoming) and NOAA GFS model data</td>
+</tr>
+<tr>
+<td>Satellites</td>
+<td>CelesTrak orbits and AMSAT status</td>
+</tr>
+</tbody>
+</table>
+<p>Station: K6EEG, San Francisco, grid square CM87sr. Current status: bench testing at 10 milliwatts into a small test
+antenna; the beacon is not on the air with an external antenna yet. A frequency survey and frequency
+coordination come next, then the permanent transmitter and site.</p>
+</main>
+<footer>
+  Updated 2026-10-31 19:14 UTC &middot; <a href="/feed.xml">RSS</a> &middot; k6eegbeacon@gmail.com &middot; 73 de K6EEG
+</footer>
+</body>
+</html>
